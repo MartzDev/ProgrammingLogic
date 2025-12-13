@@ -10,6 +10,10 @@ public class GenerarLetrasAlfabeto {
      * - Número: 25 → Z
      * - Número: 26 → A
      * - Número: 28 → C
+     * explicación de la solución:
+     * Se utiliza el operador módulo (%) para ciclar los números dentro del rango
+     * de 0 a 25, y luego se convierte ese número en su correspondiente letra
+     * sumando el valor ASCII de 'A'.
      */
 
     private static int numero = 25;
