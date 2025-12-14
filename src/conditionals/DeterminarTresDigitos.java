@@ -10,14 +10,14 @@ public class DeterminarTresDigitos {
      * Se utiliza la funcion Math.abs para considerar tambien numeros negativos.
      */
 
-    private static int number = Math.abs(134);
+    private static int numero = Math.abs(134);
 
     public static void main(String[] args) {
 
-        if (number >= 100 && number <= 999) {
-            System.out.println("El numero " + number + " tiene 3 digitos");
+        if (numero >= 100 && numero <= 999) {
+            System.out.println("El numero " + numero + " tiene 3 digitos");
         } else {
-            System.out.println("El numero " + number + " no tiene 3 digitos");
+            System.out.println("El numero " + numero + " no tiene 3 digitos");
         }
     }
 }

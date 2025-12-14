@@ -14,13 +14,13 @@ public class DeterminarUltimoNumero {
      * semana (mod 7, 0-6), etc.
      */
 
-    private static int number = 8764;
+    private static int numero = 8764;
 
     public static void main(String[] args) {
-        if (number % 10 == 4) {
-            System.out.println("El numero " + number + " termina en 4");
+        if (numero % 10 == 4) {
+            System.out.println("El numero " + numero + " termina en 4");
         } else {
-            System.out.println("El numero " + number + " no termina en 4");
+            System.out.println("El numero " + numero + " no termina en 4");
         }
     }
 }
