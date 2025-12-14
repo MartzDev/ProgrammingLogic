@@ -13,6 +13,7 @@ public class CalcularDiaSemana {
      * explicación de la solución:
      * Se utiliza el operador módulo (%) para ciclar los días dentro del rango
      * de 0 a 6.
+     * 
      * Explicacion de la solución:
      * 1. Se suma el día actual (5) con los días a sumar (4), obteniendo 9.
      * 2. Se aplica el operador módulo 7 a 9, lo que da como resultado 2.

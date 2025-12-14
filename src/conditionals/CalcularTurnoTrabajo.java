@@ -11,7 +11,8 @@ public class CalcularTurnoTrabajo {
      * - Hora inicio: 21 (9 PM)
      * - Duración: 10 horas
      * - Resultado: 7 (7 AM del día siguiente)
-     * explicación de la solución:
+     * 
+     * Explicación de la solución:
      * Se utiliza el operador módulo (%) para ciclar las horas dentro del rango
      * de 0 a 23.
      */

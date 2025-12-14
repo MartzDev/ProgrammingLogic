@@ -3,7 +3,8 @@ package conditionals;
 public class DeterminarTresDigitos {
 
     /*
-     * Leer un numero y determinar si tiene 3 digitos
+     * Leer un numero y determinar si tiene 3 digitos.
+     * 
      * Explicacion de la solucion: Un numero tiene 3 digitos si se encuentra en el
      * rango de 100 a 999.
      * Se utiliza la funcion Math.abs para considerar tambien numeros negativos.

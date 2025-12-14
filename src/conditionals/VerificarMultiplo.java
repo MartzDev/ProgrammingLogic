@@ -8,6 +8,7 @@ public class VerificarMultiplo {
      * Ejemplo:
      * - Número: 15, Divisor: 5 → "15 es múltiplo de 5"
      * - Número: 17, Divisor: 5 → "17 NO es múltiplo de 5"
+     * 
      * Explicación de la solución:
      * Se utiliza el operador módulo (%) para verificar si el residuo de la
      * división del número entre el divisor es cero. Si el residuo es cero,

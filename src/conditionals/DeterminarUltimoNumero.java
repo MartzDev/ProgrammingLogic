@@ -4,7 +4,8 @@ public class DeterminarUltimoNumero {
 
     /*
      * Ejercicio: leer un numero entero y determinar si es un numero que termina en
-     * 4
+     * 4.
+     * 
      * Explicacion de la solucion: El operador módulo es muy útil en programación
      * porque:
      * Permite extraer el último dígito de un número entero (mod 10).
