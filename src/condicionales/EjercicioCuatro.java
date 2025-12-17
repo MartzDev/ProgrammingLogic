@@ -8,7 +8,13 @@ public class EjercicioCuatro {
     private static int sumaDigitos;
 
     public static void main(String[] args) {
-        sumaDigitos = (numero % 10) + (numero / 10);
-        System.out.println("La suma de los digitos es: " + sumaDigitos);
+
+        if (numero < 10 || numero > 99) {
+            System.out.println("El número no es de dos digitos");
+            return;
+        } else {
+            sumaDigitos = (numero % 10) + (numero / 10);
+            System.out.println("La suma de los digitos es: " + sumaDigitos);
+        }
     }
 }
