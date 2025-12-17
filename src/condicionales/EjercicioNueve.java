@@ -2,7 +2,7 @@
 
 package condicionales;
 
-public class EjerciciioNueve {
+public class EjercicioNueve {
 
     private static int primerNumero = 24;
     private static int segundoNumero = 12;
