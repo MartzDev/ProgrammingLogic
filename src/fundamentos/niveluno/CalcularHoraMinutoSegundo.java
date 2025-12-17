@@ -1,4 +1,4 @@
-package fundamentals.levelone;
+package fundamentos.niveluno;
 
 public class CalcularHoraMinutoSegundo {
 
